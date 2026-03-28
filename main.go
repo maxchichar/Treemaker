@@ -23,7 +23,7 @@ func main() {
 	for scanner.Scan() {
 		line := scanner.Text()
 		if strings.TrimSpace(line) == ""{
-			fmt.Println("\nProcessing tree...\n")
+			fmt.Printf("\nProcessing tree...\n")
 			break // stops processing on an empty line
 		}
 		
